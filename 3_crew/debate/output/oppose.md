@@ -1,11 +1,23 @@
-While the concerns surrounding large language models (LLMs) are valid, instating strict laws to regulate them poses significant risks that could stifle innovation, limit access, and perpetuate inequalities in technology. 
+## Thesis
+Given current trajectories of capability, incentives, and governance, AI’s systemic risks—to jobs, security, rights, and the information ecosystem—are likely to outweigh its benefits.
 
-Firstly, strict regulations can hinder the rapid pace of technological advancement. Innovation thrives on flexibility and creativity; imposing stringent rules may lead to a stagnation in developing new models and applications. History has shown us that over-regulation can curb progress in burgeoning fields, reducing the potential benefits of LLMs for society.
+## Objections
+1) Displacement and concentration: Generative AI automates white‑collar tasks, threatening millions of roles (e.g., media, coding, back‑office), with gains accruing to “superstar” firms. The 2023 Hollywood strikes and newsroom layoffs over AI use illustrate wage suppression and bargaining power loss; RCTs showing novice boosts imply widening skill gaps and polarization, not shared prosperity.
 
-Secondly, such laws could result in inequitable access to these technologies. If regulations become burdensome, only well-resourced organizations will be able to comply, effectively sidelining startups and smaller entities that could introduce groundbreaking ideas or applications. This could create a technological divide, with a few players controlling LLM advancements while others are left behind.
+2) Security and misinformation: Foundation models lower the cost of cyberattacks and biological design (e.g., models generating tens of thousands of toxic molecules in hours). 2024 saw AI deepfake robocalls mimicking a U.S. president and election‑swaying audio in Slovakia—eroding trust at population scale.
 
-Moreover, many of the risks attributed to LLMs, such as misinformation or privacy breaches, could be more effectively addressed through self-regulation and industry standards rather than imposed legal restrictions. The tech community can collaborate to establish ethical guidelines that encourage responsible AI development while fostering a culture of accountability—a model that has succeeded in other areas like data security.
+3) Bias and civil rights: Real‑world harms persist despite audits—wrongful arrests from facial recognition (Robert Williams, Porcha Woodruff), biased healthcare triage (Optum algorithm), and predictive policing feedback loops that over‑target marginalized communities.
 
-Additionally, strict laws may result in unintended consequences, such as the potential for censorship and suppression of free expression. Limiting the capabilities of LLMs through law may pave the way for bias where only certain narratives are favored, silencing diverse voices and opinions.
+4) Environmental and epistemic costs: Training and inference drive large, rising energy and water use; meanwhile, AI floods the web with spam, synthetic papers, and counterfeit media, degrading the knowledge commons. Watermarking/detection is brittle and easily stripped.
 
-In conclusion, instead of strict laws, we should advocate for a balanced approach that encourages innovation while addressing potential risks through collaborative self-regulation and adaptive policies. Flexibility is key to harnessing the transformative potential of LLMs, ensuring that they emerge as tools for empowerment rather than vehicles of restriction.
+5) Fragility and safety: Models hallucinate; users over‑trust automated advice (automation bias). While AEB cuts some rear‑end crashes, partial autonomy has produced high‑profile failures (e.g., Autopilot crashes). Clinical tools often fail out‑of‑distribution.
+
+## Rebuttals
+- Health/science acceleration: AlphaFold is impressive, yet therapeutic translation remains limited; many clinical AI gains vanish outside trials and can induce automation bias.
+- Safety/sustainability: Google’s 40% cooling savings are outweighed by exploding AI compute demand; ADAS gains coexist with new failure modes from over‑reliance.
+- Productivity/growth: Lab productivity bumps don’t ensure net welfare once transition costs, quality risks, and monopoly dynamics are included.
+- Inclusion/access: Assistive tools help some, but misrecognition and the digital divide exclude many; low‑resource languages underperform.
+- “Mitigations exist”: Watermarks/provenance can be removed; audits lack access; antitrust and safety governance lag capability growth; alignment remains unresolved.
+
+## Conclusion
+Benefits are narrow, contingent, and uneven; harms are systemic, scalable, and hard to mitigate at pace. The House should reject the motion.

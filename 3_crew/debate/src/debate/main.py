@@ -18,7 +18,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'motion': 'There needs to be strict laws to regulate LLMs',
+        'motion': 'This House believes that artificial intelligence will bring more benefits than harms to society',
     }
     
     try:

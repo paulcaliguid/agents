@@ -1,26 +1,37 @@
 propose:
   description: >
-    You are proposing the motion: {motion}.
-    Come up with a clear argument in favor of the motion.
-    Be very convincing.
+    You argue in favor of the motion: {motion}.
+    Produce a concise, structured affirmative case:
+    - Start with a one-sentence thesis.
+    - Provide 3–5 numbered supporting arguments with evidence or concrete examples.
+    - Anticipate the strongest counterarguments and include brief rebuttals.
+    - End with a memorable concluding sentence.
   expected_output: >
-    Your clear argument in favor of the motion, in a concise manner.
-  agent: debater
+    Markdown with headings: Thesis, Arguments, Rebuttals, Conclusion. 200–300 words.
+  agent: proposer
   output_file: output/propose.md
 
 oppose:
   description: >
-    You are in opposition to the motion: {motion}.
-    Come up with a clear argument against the motion.
-    Be very convincing.
+    You argue against the motion: {motion}.
+    Produce a concise, structured negative case:
+    - Start with a one-sentence thesis against the motion.
+    - Provide 3–5 numbered objections with evidence or concrete examples.
+    - Anticipate the best affirmative points and include crisp rebuttals.
+    - End with a clear summary of why the motion should be rejected.
   expected_output: >
-    Your clear argument against the motion, in a concise manner.
-  agent: debater
+    Markdown with headings: Thesis, Objections, Rebuttals, Conclusion. 200–300 words.
+  agent: opposer
   output_file: output/oppose.md
+
 decide:
   description: >
-    Review the arguments presented by the debaters and decide which side is more convincing.
+    Review both arguments and decide which side is more convincing based solely on the presented content.
+    Evaluate clarity, logical rigor, evidence, handling of counterarguments, and overall persuasiveness.
   expected_output: >
-    Your decision on which side is more convincing, and why.
+    Markdown with headings: Criteria, Evaluation (Proposition), Evaluation (Opposition), Verdict, Rationale.
   agent: judge
   output_file: output/decide.md
+  context:
+    - propose
+    - oppose
